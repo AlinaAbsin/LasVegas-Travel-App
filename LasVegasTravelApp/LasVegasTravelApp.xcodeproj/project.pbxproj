@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363EBBF42467724300F965F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBBF32467724300F965F1 /* AppDelegate.swift */; };
+		363EBBF62467724300F965F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBBF52467724300F965F1 /* SceneDelegate.swift */; };
+		363EBBF82467724300F965F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBBF72467724300F965F1 /* HomeViewController.swift */; };
+		363EBBFB2467724300F965F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363EBBF92467724300F965F1 /* Main.storyboard */; };
+		363EBBFD2467724500F965F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363EBBFC2467724500F965F1 /* Assets.xcassets */; };
+		363EBC002467724500F965F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363EBBFE2467724500F965F1 /* LaunchScreen.storyboard */; };
+		363EBC0B2467724500F965F1 /* LasVegasTravelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBC0A2467724500F965F1 /* LasVegasTravelAppTests.swift */; };
+		363EBC5B246772F000F965F1 /* LasVegas2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC17246772F000F965F1 /* LasVegas2.jpg */; };
+		363EBC5C246772F000F965F1 /* LasVegas1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC18246772F000F965F1 /* LasVegas1.jpg */; };
+		363EBC5D246772F000F965F1 /* LasVegas3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC19246772F000F965F1 /* LasVegas3.jpg */; };
+		363EBC5E246772F000F965F1 /* LasVegas4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC1A246772F000F965F1 /* LasVegas4.jpg */; };
+		363EBC5F246772F000F965F1 /* LasVegas5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC1B246772F000F965F1 /* LasVegas5.jpg */; };
+		363EBC60246772F000F965F1 /* LasVegas7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC1C246772F000F965F1 /* LasVegas7.jpg */; };
+		363EBC61246772F000F965F1 /* LasVegas6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC1D246772F000F965F1 /* LasVegas6.jpg */; };
+		363EBC62246772F000F965F1 /* LasVegas8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC1E246772F000F965F1 /* LasVegas8.jpg */; };
+		363EBC63246772F000F965F1 /* LasVegas9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC1F246772F000F965F1 /* LasVegas9.jpg */; };
+		363EBC64246772F000F965F1 /* LasVegas10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC20246772F000F965F1 /* LasVegas10.jpg */; };
+		363EBC65246772F000F965F1 /* LasVegas11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBC21246772F000F965F1 /* LasVegas11.jpg */; };
+		363EBCA02467D49400F965F1 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBC9F2467D49400F965F1 /* MenuTableViewController.swift */; };
+		363EBCA22467D5C700F965F1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBCA12467D5C700F965F1 /* MenuTableViewCell.swift */; };
+		363EBCA52468622C00F965F1 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBCA42468622C00F965F1 /* CategoryTableViewController.swift */; };
+		363EBCA7246862EB00F965F1 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBCA6246862EB00F965F1 /* CategoryTableViewCell.swift */; };
+		363EBCAA2468C5F600F965F1 /* SpecificCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBCA92468C5F600F965F1 /* SpecificCategoryTableViewController.swift */; };
+		363EBCAC2468C65900F965F1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBCAB2468C65900F965F1 /* Category.swift */; };
+		363EBCAE2468C75800F965F1 /* SpecificCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EBCAD2468C75800F965F1 /* SpecificCategoryTableViewCell.swift */; };
+		363EBCB82468CCC500F965F1 /* StratosphereCasino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCB42468CCC500F965F1 /* StratosphereCasino.jpg */; };
+		363EBCB92468CCC500F965F1 /* CaesarsPalaceCasino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCB52468CCC500F965F1 /* CaesarsPalaceCasino.jpg */; };
+		363EBCBA2468CCC500F965F1 /* WestgateCasino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCB62468CCC500F965F1 /* WestgateCasino.jpg */; };
+		363EBCBB2468CCC500F965F1 /* BellagioCasino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCB72468CCC500F965F1 /* BellagioCasino.jpg */; };
+		363EBCBE2468CE5800F965F1 /* MandalayBayHotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCBC2468CE5700F965F1 /* MandalayBayHotel.jpg */; };
+		363EBCBF2468CE5800F965F1 /* BellagioHotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCBD2468CE5700F965F1 /* BellagioHotel.jpg */; };
+		363EBCC62468CF6400F965F1 /* Joe'sSeafood, Prime Steak & Stone Crab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCC02468CF6400F965F1 /* Joe'sSeafood, Prime Steak & Stone Crab.jpg */; };
+		363EBCC72468CF6400F965F1 /* ArawanThaiBistroAndDessert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCC12468CF6400F965F1 /* ArawanThaiBistroAndDessert.jpg */; };
+		363EBCC82468CF6400F965F1 /* ChinChin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCC22468CF6400F965F1 /* ChinChin.jpg */; };
+		363EBCC92468CF6400F965F1 /* TripleGeorgeGrill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCC32468CF6400F965F1 /* TripleGeorgeGrill.jpg */; };
+		363EBCCA2468CF6400F965F1 /* CarsonKitchen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCC42468CF6400F965F1 /* CarsonKitchen.jpg */; };
+		363EBCCB2468CF6400F965F1 /* LeCirque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCC52468CF6400F965F1 /* LeCirque.jpg */; };
+		363EBCD22468D12100F965F1 /* MagicShow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCCC2468D12000F965F1 /* MagicShow.jpg */; };
+		363EBCD32468D12100F965F1 /* BlueMan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCCD2468D12000F965F1 /* BlueMan.jpg */; };
+		363EBCD42468D12100F965F1 /* KAShow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCCE2468D12000F965F1 /* KAShow.jpg */; };
+		363EBCD52468D12100F965F1 /* Luzia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCCF2468D12000F965F1 /* Luzia.jpg */; };
+		363EBCE02468D23800F965F1 /* MusicFountain7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCD82468D23800F965F1 /* MusicFountain7.jpg */; };
+		363EBCE12468D23800F965F1 /* MusicFountain8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCD92468D23800F965F1 /* MusicFountain8.jpg */; };
+		363EBCE22468D23800F965F1 /* MusicFountain4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCDA2468D23800F965F1 /* MusicFountain4.jpg */; };
+		363EBCE32468D23800F965F1 /* MusicFountain5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCDB2468D23800F965F1 /* MusicFountain5.jpg */; };
+		363EBCE42468D23800F965F1 /* MusicFountain3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCDC2468D23800F965F1 /* MusicFountain3.jpg */; };
+		363EBCE52468D23800F965F1 /* MusicFountain6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCDD2468D23800F965F1 /* MusicFountain6.jpg */; };
+		363EBCE62468D23800F965F1 /* MusicFountain1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCDE2468D23800F965F1 /* MusicFountain1.jpg */; };
+		363EBCE72468D23800F965F1 /* MusicFountain2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCDF2468D23800F965F1 /* MusicFountain2.jpg */; };
+		363EBCEB2469165900F965F1 /* VdaraHotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCE82469165800F965F1 /* VdaraHotel.jpg */; };
+		363EBCEC2469165900F965F1 /* SecretSuites.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCE92469165800F965F1 /* SecretSuites.jpg */; };
+		363EBCED2469165900F965F1 /* WaldorfAstoriaHotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363EBCEA2469165800F965F1 /* WaldorfAstoriaHotel.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		363EBC072467724500F965F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 363EBBE82467724300F965F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363EBBEF2467724300F965F1;
+			remoteInfo = LasVegasTravelApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		363EBBF02467724300F965F1 /* LasVegasTravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LasVegasTravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		363EBBF32467724300F965F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		363EBBF52467724300F965F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		363EBBF72467724300F965F1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		363EBBFA2467724300F965F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		363EBBFC2467724500F965F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		363EBBFF2467724500F965F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		363EBC012467724500F965F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363EBC062467724500F965F1 /* LasVegasTravelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LasVegasTravelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		363EBC0A2467724500F965F1 /* LasVegasTravelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasVegasTravelAppTests.swift; sourceTree = "<group>"; };
+		363EBC0C2467724500F965F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363EBC17246772F000F965F1 /* LasVegas2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas2.jpg; sourceTree = "<group>"; };
+		363EBC18246772F000F965F1 /* LasVegas1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas1.jpg; sourceTree = "<group>"; };
+		363EBC19246772F000F965F1 /* LasVegas3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas3.jpg; sourceTree = "<group>"; };
+		363EBC1A246772F000F965F1 /* LasVegas4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas4.jpg; sourceTree = "<group>"; };
+		363EBC1B246772F000F965F1 /* LasVegas5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas5.jpg; sourceTree = "<group>"; };
+		363EBC1C246772F000F965F1 /* LasVegas7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas7.jpg; sourceTree = "<group>"; };
+		363EBC1D246772F000F965F1 /* LasVegas6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas6.jpg; sourceTree = "<group>"; };
+		363EBC1E246772F000F965F1 /* LasVegas8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas8.jpg; sourceTree = "<group>"; };
+		363EBC1F246772F000F965F1 /* LasVegas9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas9.jpg; sourceTree = "<group>"; };
+		363EBC20246772F000F965F1 /* LasVegas10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas10.jpg; sourceTree = "<group>"; };
+		363EBC21246772F000F965F1 /* LasVegas11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LasVegas11.jpg; sourceTree = "<group>"; };
+		363EBC9F2467D49400F965F1 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		363EBCA12467D5C700F965F1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		363EBCA42468622C00F965F1 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		363EBCA6246862EB00F965F1 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		363EBCA92468C5F600F965F1 /* SpecificCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificCategoryTableViewController.swift; sourceTree = "<group>"; };
+		363EBCAB2468C65900F965F1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		363EBCAD2468C75800F965F1 /* SpecificCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		363EBCB42468CCC500F965F1 /* StratosphereCasino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StratosphereCasino.jpg; sourceTree = "<group>"; };
+		363EBCB52468CCC500F965F1 /* CaesarsPalaceCasino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CaesarsPalaceCasino.jpg; sourceTree = "<group>"; };
+		363EBCB62468CCC500F965F1 /* WestgateCasino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WestgateCasino.jpg; sourceTree = "<group>"; };
+		363EBCB72468CCC500F965F1 /* BellagioCasino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BellagioCasino.jpg; sourceTree = "<group>"; };
+		363EBCBC2468CE5700F965F1 /* MandalayBayHotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MandalayBayHotel.jpg; sourceTree = "<group>"; };
+		363EBCBD2468CE5700F965F1 /* BellagioHotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BellagioHotel.jpg; sourceTree = "<group>"; };
+		363EBCC02468CF6400F965F1 /* Joe'sSeafood, Prime Steak & Stone Crab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Joe'sSeafood, Prime Steak & Stone Crab.jpg"; sourceTree = "<group>"; };
+		363EBCC12468CF6400F965F1 /* ArawanThaiBistroAndDessert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ArawanThaiBistroAndDessert.jpg; sourceTree = "<group>"; };
+		363EBCC22468CF6400F965F1 /* ChinChin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChinChin.jpg; sourceTree = "<group>"; };
+		363EBCC32468CF6400F965F1 /* TripleGeorgeGrill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TripleGeorgeGrill.jpg; sourceTree = "<group>"; };
+		363EBCC42468CF6400F965F1 /* CarsonKitchen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CarsonKitchen.jpg; sourceTree = "<group>"; };
+		363EBCC52468CF6400F965F1 /* LeCirque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeCirque.jpg; sourceTree = "<group>"; };
+		363EBCCC2468D12000F965F1 /* MagicShow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MagicShow.jpg; sourceTree = "<group>"; };
+		363EBCCD2468D12000F965F1 /* BlueMan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlueMan.jpg; sourceTree = "<group>"; };
+		363EBCCE2468D12000F965F1 /* KAShow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KAShow.jpg; sourceTree = "<group>"; };
+		363EBCCF2468D12000F965F1 /* Luzia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Luzia.jpg; sourceTree = "<group>"; };
+		363EBCD82468D23800F965F1 /* MusicFountain7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicFountain7.jpg; sourceTree = "<group>"; };
+		363EBCD92468D23800F965F1 /* MusicFountain8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicFountain8.jpg; sourceTree = "<group>"; };
+		363EBCDA2468D23800F965F1 /* MusicFountain4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicFountain4.jpg; sourceTree = "<group>"; };
+		363EBCDB2468D23800F965F1 /* MusicFountain5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicFountain5.jpg; sourceTree = "<group>"; };
+		363EBCDC2468D23800F965F1 /* MusicFountain3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicFountain3.jpg; sourceTree = "<group>"; };
+		363EBCDD2468D23800F965F1 /* MusicFountain6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicFountain6.jpg; sourceTree = "<group>"; };
+		363EBCDE2468D23800F965F1 /* MusicFountain1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicFountain1.jpg; sourceTree = "<group>"; };
+		363EBCDF2468D23800F965F1 /* MusicFountain2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicFountain2.jpg; sourceTree = "<group>"; };
+		363EBCE82469165800F965F1 /* VdaraHotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VdaraHotel.jpg; sourceTree = "<group>"; };
+		363EBCE92469165800F965F1 /* SecretSuites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SecretSuites.jpg; sourceTree = "<group>"; };
+		363EBCEA2469165800F965F1 /* WaldorfAstoriaHotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WaldorfAstoriaHotel.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363EBBED2467724300F965F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363EBC032467724500F965F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363EBBE72467724300F965F1 = {
+			isa = PBXGroup;
+			children = (
+				363EBBF22467724300F965F1 /* LasVegasTravelApp */,
+				363EBC092467724500F965F1 /* LasVegasTravelAppTests */,
+				363EBBF12467724300F965F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363EBBF12467724300F965F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363EBBF02467724300F965F1 /* LasVegasTravelApp.app */,
+				363EBC062467724500F965F1 /* LasVegasTravelAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363EBBF22467724300F965F1 /* LasVegasTravelApp */ = {
+			isa = PBXGroup;
+			children = (
+				363EBC15246772B400F965F1 /* SupportFiles */,
+				363EBCA3246861F800F965F1 /* ViewControllers */,
+				363EBCA8246871B200F965F1 /* ViewCells */,
+				363EBBF32467724300F965F1 /* AppDelegate.swift */,
+				363EBBF52467724300F965F1 /* SceneDelegate.swift */,
+				363EBBF92467724300F965F1 /* Main.storyboard */,
+				363EBBFC2467724500F965F1 /* Assets.xcassets */,
+				363EBBFE2467724500F965F1 /* LaunchScreen.storyboard */,
+				363EBC012467724500F965F1 /* Info.plist */,
+				363EBCAB2468C65900F965F1 /* Category.swift */,
+			);
+			path = LasVegasTravelApp;
+			sourceTree = "<group>";
+		};
+		363EBC092467724500F965F1 /* LasVegasTravelAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				363EBC0A2467724500F965F1 /* LasVegasTravelAppTests.swift */,
+				363EBC0C2467724500F965F1 /* Info.plist */,
+			);
+			path = LasVegasTravelAppTests;
+			sourceTree = "<group>";
+		};
+		363EBC15246772B400F965F1 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				363EBCAF2468CC3C00F965F1 /* Casinos */,
+				363EBCB02468CC4700F965F1 /* Hotels */,
+				363EBCB32468CC8600F965F1 /* Restaurants */,
+				363EBCB22468CC6F00F965F1 /* Performances */,
+				363EBCB12468CC5400F965F1 /* MusicFountains */,
+				363EBC16246772F000F965F1 /* LasVegas */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		363EBC16246772F000F965F1 /* LasVegas */ = {
+			isa = PBXGroup;
+			children = (
+				363EBC17246772F000F965F1 /* LasVegas2.jpg */,
+				363EBC18246772F000F965F1 /* LasVegas1.jpg */,
+				363EBC19246772F000F965F1 /* LasVegas3.jpg */,
+				363EBC1A246772F000F965F1 /* LasVegas4.jpg */,
+				363EBC1B246772F000F965F1 /* LasVegas5.jpg */,
+				363EBC1C246772F000F965F1 /* LasVegas7.jpg */,
+				363EBC1D246772F000F965F1 /* LasVegas6.jpg */,
+				363EBC1E246772F000F965F1 /* LasVegas8.jpg */,
+				363EBC1F246772F000F965F1 /* LasVegas9.jpg */,
+				363EBC20246772F000F965F1 /* LasVegas10.jpg */,
+				363EBC21246772F000F965F1 /* LasVegas11.jpg */,
+			);
+			path = LasVegas;
+			sourceTree = "<group>";
+		};
+		363EBCA3246861F800F965F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				363EBC9F2467D49400F965F1 /* MenuTableViewController.swift */,
+				363EBBF72467724300F965F1 /* HomeViewController.swift */,
+				363EBCA42468622C00F965F1 /* CategoryTableViewController.swift */,
+				363EBCA92468C5F600F965F1 /* SpecificCategoryTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		363EBCA8246871B200F965F1 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				363EBCA12467D5C700F965F1 /* MenuTableViewCell.swift */,
+				363EBCA6246862EB00F965F1 /* CategoryTableViewCell.swift */,
+				363EBCAD2468C75800F965F1 /* SpecificCategoryTableViewCell.swift */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		363EBCAF2468CC3C00F965F1 /* Casinos */ = {
+			isa = PBXGroup;
+			children = (
+				363EBCB72468CCC500F965F1 /* BellagioCasino.jpg */,
+				363EBCB52468CCC500F965F1 /* CaesarsPalaceCasino.jpg */,
+				363EBCB42468CCC500F965F1 /* StratosphereCasino.jpg */,
+				363EBCB62468CCC500F965F1 /* WestgateCasino.jpg */,
+			);
+			path = Casinos;
+			sourceTree = "<group>";
+		};
+		363EBCB02468CC4700F965F1 /* Hotels */ = {
+			isa = PBXGroup;
+			children = (
+				363EBCE92469165800F965F1 /* SecretSuites.jpg */,
+				363EBCE82469165800F965F1 /* VdaraHotel.jpg */,
+				363EBCEA2469165800F965F1 /* WaldorfAstoriaHotel.jpg */,
+				363EBCBD2468CE5700F965F1 /* BellagioHotel.jpg */,
+				363EBCBC2468CE5700F965F1 /* MandalayBayHotel.jpg */,
+			);
+			path = Hotels;
+			sourceTree = "<group>";
+		};
+		363EBCB12468CC5400F965F1 /* MusicFountains */ = {
+			isa = PBXGroup;
+			children = (
+				363EBCDE2468D23800F965F1 /* MusicFountain1.jpg */,
+				363EBCDF2468D23800F965F1 /* MusicFountain2.jpg */,
+				363EBCDC2468D23800F965F1 /* MusicFountain3.jpg */,
+				363EBCDA2468D23800F965F1 /* MusicFountain4.jpg */,
+				363EBCDB2468D23800F965F1 /* MusicFountain5.jpg */,
+				363EBCDD2468D23800F965F1 /* MusicFountain6.jpg */,
+				363EBCD82468D23800F965F1 /* MusicFountain7.jpg */,
+				363EBCD92468D23800F965F1 /* MusicFountain8.jpg */,
+			);
+			path = MusicFountains;
+			sourceTree = "<group>";
+		};
+		363EBCB22468CC6F00F965F1 /* Performances */ = {
+			isa = PBXGroup;
+			children = (
+				363EBCCD2468D12000F965F1 /* BlueMan.jpg */,
+				363EBCCE2468D12000F965F1 /* KAShow.jpg */,
+				363EBCCF2468D12000F965F1 /* Luzia.jpg */,
+				363EBCCC2468D12000F965F1 /* MagicShow.jpg */,
+			);
+			path = Performances;
+			sourceTree = "<group>";
+		};
+		363EBCB32468CC8600F965F1 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				363EBCC12468CF6400F965F1 /* ArawanThaiBistroAndDessert.jpg */,
+				363EBCC42468CF6400F965F1 /* CarsonKitchen.jpg */,
+				363EBCC22468CF6400F965F1 /* ChinChin.jpg */,
+				363EBCC02468CF6400F965F1 /* Joe'sSeafood, Prime Steak & Stone Crab.jpg */,
+				363EBCC52468CF6400F965F1 /* LeCirque.jpg */,
+				363EBCC32468CF6400F965F1 /* TripleGeorgeGrill.jpg */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363EBBEF2467724300F965F1 /* LasVegasTravelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363EBC0F2467724500F965F1 /* Build configuration list for PBXNativeTarget "LasVegasTravelApp" */;
+			buildPhases = (
+				363EBBEC2467724300F965F1 /* Sources */,
+				363EBBED2467724300F965F1 /* Frameworks */,
+				363EBBEE2467724300F965F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LasVegasTravelApp;
+			productName = LasVegasTravelApp;
+			productReference = 363EBBF02467724300F965F1 /* LasVegasTravelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		363EBC052467724500F965F1 /* LasVegasTravelAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363EBC122467724500F965F1 /* Build configuration list for PBXNativeTarget "LasVegasTravelAppTests" */;
+			buildPhases = (
+				363EBC022467724500F965F1 /* Sources */,
+				363EBC032467724500F965F1 /* Frameworks */,
+				363EBC042467724500F965F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363EBC082467724500F965F1 /* PBXTargetDependency */,
+			);
+			name = LasVegasTravelAppTests;
+			productName = LasVegasTravelAppTests;
+			productReference = 363EBC062467724500F965F1 /* LasVegasTravelAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		363EBBE82467724300F965F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Yaxin Deng";
+				TargetAttributes = {
+					363EBBEF2467724300F965F1 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					363EBC052467724500F965F1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 363EBBEF2467724300F965F1;
+					};
+				};
+			};
+			buildConfigurationList = 363EBBEB2467724300F965F1 /* Build configuration list for PBXProject "LasVegasTravelApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 363EBBE72467724300F965F1;
+			productRefGroup = 363EBBF12467724300F965F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				363EBBEF2467724300F965F1 /* LasVegasTravelApp */,
+				363EBC052467724500F965F1 /* LasVegasTravelAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363EBBEE2467724300F965F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363EBC5E246772F000F965F1 /* LasVegas4.jpg in Resources */,
+				363EBCE52468D23800F965F1 /* MusicFountain6.jpg in Resources */,
+				363EBCBA2468CCC500F965F1 /* WestgateCasino.jpg in Resources */,
+				363EBCD22468D12100F965F1 /* MagicShow.jpg in Resources */,
+				363EBCBB2468CCC500F965F1 /* BellagioCasino.jpg in Resources */,
+				363EBC5B246772F000F965F1 /* LasVegas2.jpg in Resources */,
+				363EBC002467724500F965F1 /* LaunchScreen.storyboard in Resources */,
+				363EBC63246772F000F965F1 /* LasVegas9.jpg in Resources */,
+				363EBCD42468D12100F965F1 /* KAShow.jpg in Resources */,
+				363EBBFD2467724500F965F1 /* Assets.xcassets in Resources */,
+				363EBCC62468CF6400F965F1 /* Joe'sSeafood, Prime Steak & Stone Crab.jpg in Resources */,
+				363EBCBE2468CE5800F965F1 /* MandalayBayHotel.jpg in Resources */,
+				363EBCEB2469165900F965F1 /* VdaraHotel.jpg in Resources */,
+				363EBCC92468CF6400F965F1 /* TripleGeorgeGrill.jpg in Resources */,
+				363EBCC82468CF6400F965F1 /* ChinChin.jpg in Resources */,
+				363EBC65246772F000F965F1 /* LasVegas11.jpg in Resources */,
+				363EBC64246772F000F965F1 /* LasVegas10.jpg in Resources */,
+				363EBCD32468D12100F965F1 /* BlueMan.jpg in Resources */,
+				363EBCC72468CF6400F965F1 /* ArawanThaiBistroAndDessert.jpg in Resources */,
+				363EBC5D246772F000F965F1 /* LasVegas3.jpg in Resources */,
+				363EBCB82468CCC500F965F1 /* StratosphereCasino.jpg in Resources */,
+				363EBBFB2467724300F965F1 /* Main.storyboard in Resources */,
+				363EBCE32468D23800F965F1 /* MusicFountain5.jpg in Resources */,
+				363EBC60246772F000F965F1 /* LasVegas7.jpg in Resources */,
+				363EBC62246772F000F965F1 /* LasVegas8.jpg in Resources */,
+				363EBCED2469165900F965F1 /* WaldorfAstoriaHotel.jpg in Resources */,
+				363EBCBF2468CE5800F965F1 /* BellagioHotel.jpg in Resources */,
+				363EBC5C246772F000F965F1 /* LasVegas1.jpg in Resources */,
+				363EBCE62468D23800F965F1 /* MusicFountain1.jpg in Resources */,
+				363EBCB92468CCC500F965F1 /* CaesarsPalaceCasino.jpg in Resources */,
+				363EBCCA2468CF6400F965F1 /* CarsonKitchen.jpg in Resources */,
+				363EBCEC2469165900F965F1 /* SecretSuites.jpg in Resources */,
+				363EBC61246772F000F965F1 /* LasVegas6.jpg in Resources */,
+				363EBCE42468D23800F965F1 /* MusicFountain3.jpg in Resources */,
+				363EBCE22468D23800F965F1 /* MusicFountain4.jpg in Resources */,
+				363EBCE72468D23800F965F1 /* MusicFountain2.jpg in Resources */,
+				363EBCCB2468CF6400F965F1 /* LeCirque.jpg in Resources */,
+				363EBC5F246772F000F965F1 /* LasVegas5.jpg in Resources */,
+				363EBCE02468D23800F965F1 /* MusicFountain7.jpg in Resources */,
+				363EBCD52468D12100F965F1 /* Luzia.jpg in Resources */,
+				363EBCE12468D23800F965F1 /* MusicFountain8.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363EBC042467724500F965F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363EBBEC2467724300F965F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363EBCA02467D49400F965F1 /* MenuTableViewController.swift in Sources */,
+				363EBCAE2468C75800F965F1 /* SpecificCategoryTableViewCell.swift in Sources */,
+				363EBBF82467724300F965F1 /* HomeViewController.swift in Sources */,
+				363EBBF42467724300F965F1 /* AppDelegate.swift in Sources */,
+				363EBBF62467724300F965F1 /* SceneDelegate.swift in Sources */,
+				363EBCA7246862EB00F965F1 /* CategoryTableViewCell.swift in Sources */,
+				363EBCAC2468C65900F965F1 /* Category.swift in Sources */,
+				363EBCA22467D5C700F965F1 /* MenuTableViewCell.swift in Sources */,
+				363EBCA52468622C00F965F1 /* CategoryTableViewController.swift in Sources */,
+				363EBCAA2468C5F600F965F1 /* SpecificCategoryTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363EBC022467724500F965F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363EBC0B2467724500F965F1 /* LasVegasTravelAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		363EBC082467724500F965F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363EBBEF2467724300F965F1 /* LasVegasTravelApp */;
+			targetProxy = 363EBC072467724500F965F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		363EBBF92467724300F965F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363EBBFA2467724300F965F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		363EBBFE2467724500F965F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363EBBFF2467724500F965F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		363EBC0D2467724500F965F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		363EBC0E2467724500F965F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		363EBC102467724500F965F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LasVegasTravelApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaxindeng.LasVegasTravelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		363EBC112467724500F965F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LasVegasTravelApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaxindeng.LasVegasTravelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		363EBC132467724500F965F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LasVegasTravelAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaxindeng.LasVegasTravelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LasVegasTravelApp.app/LasVegasTravelApp";
+			};
+			name = Debug;
+		};
+		363EBC142467724500F965F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LasVegasTravelAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaxindeng.LasVegasTravelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LasVegasTravelApp.app/LasVegasTravelApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363EBBEB2467724300F965F1 /* Build configuration list for PBXProject "LasVegasTravelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363EBC0D2467724500F965F1 /* Debug */,
+				363EBC0E2467724500F965F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363EBC0F2467724500F965F1 /* Build configuration list for PBXNativeTarget "LasVegasTravelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363EBC102467724500F965F1 /* Debug */,
+				363EBC112467724500F965F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363EBC122467724500F965F1 /* Build configuration list for PBXNativeTarget "LasVegasTravelAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363EBC132467724500F965F1 /* Debug */,
+				363EBC142467724500F965F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 363EBBE82467724300F965F1 /* Project object */;
+}
